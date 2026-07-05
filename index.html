@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Álbum de Figuritas — Selección Argentina</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:ital,wght@0,400;0,600;0,700;1,600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="album">
+
+  <!-- ===================== HEADER (Título) ===================== -->
+  <header class="portada" id="inicio">
+    <div class="portada-textura"></div>
+    <p class="sello-oficial">FIFA WORLD CUP 2026 · COLECCIÓN OFICIAL</p>
+    <h1>Mi Álbum<br>de Figuritas</h1>
+    <p class="subtitulo">Selección Argentina — Rumbo al Mundial</p>
+    <div class="cinta-progreso">
+      <span class="cinta-etiqueta">Álbum completado</span>
+      <div class="barra"><div class="barra-relleno"></div></div>
+      <span class="cinta-numero">18 / 18 figuritas de esta lámina</span>
+    </div>
+  </header>
+
+  <!-- ===================== MENÚ ===================== -->
+  <nav class="menu">
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#coleccion">Mi Colección</a></li>
+      <li><a href="#sobres">Sobres</a></li>
+      <li><a href="#canjes">Canjes</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===================== SECCIÓN DE SOBRES ===================== -->
+  <section id="sobres" class="seccion sobres">
+    <div class="seccion-titulo">
+      <h2>Sección de Sobres</h2>
+      <span class="contador">3 disponibles</span>
+    </div>
+
+    <div class="sobres-fila">
+
+      <div class="sobre sobre--clasico">
+        <div class="sobre-solapa"></div>
+        <p class="sobre-nombre">Sobre Clásico</p>
+        <p class="sobre-detalle">5 figuritas al azar</p>
+        <a href="#coleccion" class="btn-pegar">¡Abrir sobre!</a>
+      </div>
+
+      <div class="sobre sobre--dorado">
+        <div class="sobre-solapa"></div>
+        <p class="sobre-nombre">Sobre Dorado</p>
+        <p class="sobre-detalle">5 figuritas + 1 legendaria</p>
+        <a href="#coleccion" class="btn-pegar">¡Abrir sobre!</a>
+      </div>
+
+      <div class="sobre sobre--seleccion">
+        <div class="sobre-solapa"></div>
+        <p class="sobre-nombre">Sobre Selección</p>
+        <p class="sobre-detalle">La Scaloneta completa</p>
+        <a href="#coleccion" class="btn-pegar">¡Abrir sobre!</a>
+      </div>
+
+    </div>
+
+    <div class="instrucciones">
+      <h3>Cómo completar tu álbum</h3>
+      <ol class="pasos">
+        <li>Elegí un sobre y hacé clic en <span class="resaltado">"¡Abrir sobre!"</span>.</li>
+        <li>Revisá las figuritas que te tocaron en <span class="resaltado">Mi Colección</span>.</li>
+        <li>Las figuritas repetidas quedan anotadas en <span class="resaltado">Canjes</span>.</li>
+        <li>Pegá cada figurita nueva en su casillero correspondiente.</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===================== CUADRÍCULA DE FIGURITAS ===================== -->
+  <section id="coleccion" class="seccion coleccion">
+    <div class="seccion-titulo">
+      <h2>Mi Colección</h2>
+      <span class="contador">Selección Argentina</span>
+    </div>
+
+    <!-- Índice: lista ORDENADA de figuritas -->
+    <div class="indice">
+      <h3>Índice de figuritas</h3>
+      <ol class="indice-figuritas">
+        <li><a href="#fig-01">Lionel Messi</a></li>
+        <li><a href="#fig-02">Emiliano Martínez</a></li>
+        <li><a href="#fig-03">Cristian Romero</a></li>
+        <li><a href="#fig-04">Nicolás Otamendi</a></li>
+        <li><a href="#fig-05">Nahuel Molina</a></li>
+        <li><a href="#fig-06">Nicolás Tagliafico</a></li>
+        <li><a href="#fig-07">Leonardo Balerdi</a></li>
+        <li><a href="#fig-08">Enzo Fernández</a></li>
+        <li><a href="#fig-09">Alexis Mac Allister</a></li>
+        <li><a href="#fig-10">Rodrigo De Paul</a></li>
+        <li><a href="#fig-11">Julián Álvarez</a></li>
+        <li><a href="#fig-12">Lautaro Martínez</a></li>
+        <li><a href="#fig-13">Franco Mastantuono</a></li>
+        <li><a href="#fig-14">Nico Paz</a></li>
+        <li><a href="#fig-15">Giuliano Simeone</a></li>
+        <li><a href="#fig-16">Leandro Paredes</a></li>
+        <li><a href="#fig-17">Exequiel Palacios</a></li>
+        <li><a href="#fig-18">Nico González</a></li>
+      </ol>
+    </div>
+
+    <div class="grilla-figuritas">
+
+      <!-- 1 -->
+      <article class="figurita figurita--legendaria" id="fig-01">
+        <span class="figurita-num">01</span>
+        <span class="etiqueta etiqueta--legendaria">[LEGENDARIA]</span>
+        <div class="figurita-foto" style="--color-a:#75AADB; --color-b:#F5C518;">LM</div>
+        <h3 class="figurita-nombre">Lionel Messi</h3>
+        <dl class="ficha-tecnica">
+          <dt>Nombre</dt><dd>Lionel Messi</dd>
+          <dt>Equipo</dt><dd>Inter Miami CF (USA)</dd>
+          <dt>Posición</dt><dd>Delantero</dd>
+        </dl>
+        <p class="datos-extra"><span>1,70 m</span> · <span>72 kg</span></p>
+        <ul class="atributos">
+          <li>Definición</li>
+          <li>Zurda mágica</li>
+          <li>Visión de juego</li>
+        </ul>
+        <a href="#" class="btn-pegar btn-pegar--pequeno">¡Pegar Figurita!</a>
+      </article>
+
+      <!-- 2 -->
+      <article class="figurita figurita--titular" id="fig-02">
+        <span class="figurita-num">02</span>
+        <span class="etiqueta etiqueta--titular">Titular</span>
+        <div class="figurita-foto" style="--color-a:#1A2B4C; --color-b:#75AADB;">EM</div>
+        <h3 class="figurita-nombre">Emiliano Martínez</h3>
+        <dl class="ficha-tecnica">
+          <dt>Nombre</dt><dd>Emiliano Martínez</dd>
+          <dt>Equipo</dt><dd>Aston Villa FC (ENG)</dd>
+          <dt>Posición</dt><dd>Arquero</dd>
+        </dl>
+        <p class="datos-extra"><span>1,95 m</span> · <span>88 kg</span></p>
+        <ul class="atributos">
+          <li>Atajadas</li>
+          <li>Juego con los pies</li>
+        </ul>
+        <a href="#" class="btn-pegar btn-pegar--pequeno">¡Pegar Figurita!</a>
+      </article>
+
+      <!-- 3 -->
+      <article class="figurita figurita--titular" id="fig-03">
+        <span class="figurita-num">03</span>
+        <span class="etiqueta etiqueta--titular">Titular</span>
+        <div class="figurita-foto" style="--color-a:#1A2B4C; --color-b:#75AADB;">CR</div>
+        <h3 class="figurita-nombre">Cristian Romero</h3>
+        <dl class="ficha-tecnica">
+          <dt>Nombre</dt><dd>Cristian Romero</dd>
+          <dt>Equipo</dt><dd>Tottenham Hotspur FC (ENG)</dd>
+          <dt>Posición</dt><dd>Defensor</dd>
+        </dl>
+        <p class="datos-extra"><span>1,85 m</span> · <span>79 kg</span></p>
+        <ul class="atributos">
+          <li>Marca</li>
+          <li>Juego aéreo</li>
+        </ul>
+        <a href="#" class="btn-pegar btn-pegar--pequeno">¡Pegar Figurita!</a>
+      </article>
+
+      <!-- 4 -->
+      <article class="figurita figurita--historica" id="fig-04">
+        <span class="figurita-num">04</span>
+        <span class="etiqueta etiqueta--historica">Histórica</span>
+        <div class="figurita-foto" style="--color-a:#5B4636; --color-b:#75AADB;">NO</div>
+        <h3 class="figurita-nombre">Nicolás Otamendi</h3>
+        <dl class="ficha-tecnica">
+          <dt>Nombre</dt><dd>Nicolás Otamendi</dd>
+          <dt>Equipo</dt><dd>SL Benfica (POR)</dd>
+          <dt>Posición</dt><dd>Defensor</dd>
+        </dl>
+        <p class="datos-extra"><span>1,83 m</span> · <span>81 kg</span></p>
+        <ul class="atributos">
+          <li>Experiencia</li>
+          <li>Juego aéreo</li>
+        </ul>
+        <a href="#" class="btn-pegar btn-pegar--pequeno">¡Pegar Figurita!</a>
+      </article>
+
+      <!-- 5 -->
+      <article class="figurita figurita--titular" id="fig-05">
+        <span class="figurita-num">05</span>
+        <span class="etiqueta etiqueta--titular">Titular</span>
+        <div class="figurita-foto" style="--color-a:#1A2B4C; --color-b:#75AADB;">NM</div>
+        <h3 class="figurita-nombre">Nahuel Molina</h3>
+        <dl class="ficha-tecnica">
+          <dt>Nombre</dt><dd>Nahuel Molina</dd>
+          <dt>Equipo</dt><dd>Atlético de Madrid (ESP)</dd>
+          <dt>Posición</dt><dd>Defensor</dd>
+        </dl>
+        <p class="datos-extra"><span>1,75 m</span> · <span>70 kg</span></p>
+        <ul class="atributos">
+          <li>Marca</li>
+          <li>Desborde</li>
+        </ul>
+        <a href="#" class="btn-pegar btn-pegar--pequeno">¡Pegar Figurita!</a>
+      </article>
+
+      <!-- 6 -->
+      <article class="figurita figurita--historica" id="fig-06">
+        <span class="figurita-num">06</span>
+        <span class="etiqueta etiqueta--historica">Histórica</span>
+        <div class="figurita-foto" style="--color-a:#5B4636; --color-b:#75AADB;">NT</div>
+        <h3 class="figurita-nombre">Nicolás Tagliafico</h3>
+        <dl class="ficha-tecnica">
+          <dt>Nombre</dt><dd>Nicolás Tagliafico</dd>
+          <dt>Equipo</dt><dd>Olympique Lyonnais (FRA)</dd>
+          <dt>Posición</dt><dd>Defensor</dd>
+        </dl>
+        <p class="datos-extra"><span>1,72 m</span> · <span>66 kg</span></p>
+        <ul class="atributos">
+          <li>Experiencia</li>
+          <li>Recuperación</li>
+        </ul>
+        <a href="#" class="btn-pegar btn-pegar--pequeno">¡Pegar Figurita!</a>
+      </article>
+
+      <!-- 7 -->
+      <article class="figurita figurita--nueva" id="fig-07">
+        <span class="figurita-num">07</span>
+        <span class="etiqueta etiqueta--nueva">[NUEVA]</span>
+        <div class="figurita-foto" style="--color-a:#C9A93B; --color-b:#75AADB;">LB</div>
+        <h3 class="figurita-nombre">Leonardo Balerdi</h3>
+        <dl class="ficha-tecnica">
+          <dt>Nombre</dt><dd>Leonardo Balerdi</dd>
+          <dt>Equipo</dt><dd>Olympique de Marseille (FRA)</dd>
+          <dt>Posición</dt><dd>Defensor</dd>
+        </dl>
+        <p class="datos-extra"><span>1,87 m</span> · <span>85 kg</span></p>
+        <ul class="atributos">
+          <li>Fuerza</li>
+          <li>Salida limpia</li>
+        </ul>
+        <a href="#" class="btn-pegar btn-pegar--pequeno">¡Pegar Figurita!</a>
+      </article>
+
+      <!-- 8 -->
+      <article class="figurita figurita--titular" id="fig-08">
+        <span class="figurita-num">08</span>
+        <span class="etiqueta etiqueta--titular">Titular</span>
+        <div class="figurita-foto" style="--color-a:#1A2B4C; --color-b:#75AADB;">EF</div>
+        <h3 class="figurita-nombre">Enzo Fernández</h3>
+        <dl class="ficha-tecnica">
+          <dt>Nombre</dt><dd>Enzo Fernández</dd>
+          <dt>Equipo</dt><dd>Chelsea FC (ENG)</dd>
+          <dt>Posición</dt><dd>Mediocampista</dd>
+        </dl>
+        <p class="datos-extra"><span>1,78 m</span> · <span>67 kg</span></p>
+        <ul class="atributos">
+          <li>Pase largo</li>
+          <li>Recuperación</li>
+        </ul>
+        <a href="#" class="btn-pegar btn-pegar--pequeno">¡Pegar Figurita!</a>
+      </article>
+
+      <!-- 9 -->
+      <article class="figurita figurita--titular" id="fig-09">
+        <span class="figurita-num">09</span>
+        <span class="etiqueta etiqueta--titular">Titular</span>
+        <div class="figurita-foto" style="--color-a:#1A2B4C; --color-b:#75AADB;">AM</div>
+        <h3 class="figurita-nombre">Alexis Mac Allister</h3>
+        <dl class="ficha-tecnica">
+          <dt>Nombre</dt><dd>Alexis Mac Allister</dd>
+          <dt>Equipo</dt><dd>Liverpool FC (ENG)</dd>
+          <dt>Posición</dt><dd>Mediocampista</dd>
+        </dl>
+        <p class="datos-extra"><span>1,76 m</span> · <span>72 kg</span></p>
+        <ul class="atributos">
+          <li>Visión</li>
+          <li>Llegada al área</li>
+        </ul>
+        <a href="#" class="btn-pegar btn-pegar--pequeno">¡Pegar Figurita!</a>
+      </article>
+
+      <!-- 10 -->
+      <article class="figurita figurita--titular" id="fig-10">
+        <span class="figurita-num">10</span>
+        <span class="etiqueta etiqueta--titular">Titular</span>
+        <div class="figurita-foto" style="--color-a:#1A2B4C; --color-b:#75AADB;">RD</div>
+        <h3 class="figurita-nombre">Rodrigo De Paul</h3>
+        <dl class="ficha-tecnica">
+          <dt>Nombre</dt><dd>Rodrigo De Paul</dd>
+          <dt>Equipo</dt><dd>Inter Miami CF (USA)</dd>
+          <dt>Posición</dt><dd>Mediocampista</dd>
+        </dl>
+        <p class="datos-extra"><span>1,80 m</span> · <span>70 kg</span></p>
+        <ul class="atributos">
+          <li>Despliegue físico</li>
+          <li>Asistencias</li>
+        </ul>
+        <a href="#" class="btn-pegar btn-pegar--pequeno">¡Pegar Figurita!</a>
+      </article>
+
+      <!-- 11 -->
+      <article class="figurita figurita--titular" id="fig-11">
+        <span class="figurita-num">11</span>
+        <span class="etiqueta etiqueta--titular">Titular</span>
+        <div class="figurita-foto" style="--color-a:#1A2B4C; --color-b:#75AADB;">JA</div>
+        <h3 class="figurita-nombre">Julián Álvarez</h3>
+        <dl class="ficha-tecnica">
+          <dt>Nombre</dt><dd>Julián Álvarez</dd>
+          <dt>Equipo</dt><dd>Atlético de Madrid (ESP)</dd>
+          <dt>Posición</dt><dd>Delantero</dd>
+        </dl>
+        <p class="datos-extra"><span>1,70 m</span> · <span>71 kg</span></p>
+        <ul class="atributos">
+          <li>Movilidad</li>
+          <li>Definición</li>
+        </ul>
+        <a href="#" class="btn-pegar btn-pegar--pequeno">¡Pegar Figurita!</a>
+      </article>
+
+      <!-- 12 -->
+      <article class="figurita figurita--titular" id="fig-12">
+        <span class="figurita-num">12</span>
+        <span class="etiqueta etiqueta--titular">Titular</span>
+        <div class="figurita-foto" style="--color-a:#1A2B4C; --color-b:#75AADB;">LM2</div>
+        <h3 class="figurita-nombre">Lautaro Martínez</h3>
+        <dl class="ficha-tecnica">
+          <dt>Nombre</dt><dd>Lautaro Martínez</dd>
+          <dt>Equipo</dt><dd>FC Internazionale Milano (ITA)</dd>
+          <dt>Posición</dt><dd>Delantero</dd>
+        </dl>
+        <p class="datos-extra"><span>1,74 m</span> · <span>72 kg</span></p>
+        <ul class="atributos">
+          <li>Definición</li>
+          <li>Juego aéreo</li>
+        </ul>
+        <a href="#" class="btn-pegar btn-pegar--pequeno">¡Pegar Figurita!</a>
+      </article>
+
+      <!-- 13 -->
+      <article class="figurita figurita--nueva" id="fig-13">
+        <span class="figurita-num">13</span>
+        <span class="etiqueta etiqueta--nueva">[NUEVA]</span>
+        <div class="figurita-foto" style="--color-a:#C9A93B; --color-b:#75AADB;">FM</div>
+        <h3 class="figurita-nombre">Franco Mastantuono</h3>
+        <dl class="ficha-tecnica">
+          <dt>Nombre</dt><dd>Franco Mastantuono</dd>
+          <dt>Equipo</dt><dd>Real Madrid CF (ESP)</dd>
+          <dt>Posición</dt><dd>Extremo</dd>
+        </dl>
+        <p class="datos-extra"><span>1,78 m</span> · <span>73 kg</span></p>
+        <ul class="atributos">
+          <li>Gambeta</li>
+          <li>Potencia de disparo</li>
+        </ul>
+        <a href="#" class="btn-pegar btn-pegar--pequeno">¡Pegar Figurita!</a>
+      </article>
+
+      <!-- 14 -->
+      <article class="figurita figurita--nueva" id="fig-14">
+        <span class="figurita-num">14</span>
+        <span class="etiqueta etiqueta--nueva">[NUEVA]</span>
+        <div class="figurita-foto" style="--color-a:#C9A93B; --color-b:#75AADB;">NP</div>
+        <h3 class="figurita-nombre">Nico Paz</h3>
+        <dl class="ficha-tecnica">
+          <dt>Nombre</dt><dd>Nico Paz</dd>
+          <dt>Equipo</dt><dd>Como 1907 (ITA)</dd>
+          <dt>Posición</dt><dd>Mediocampista</dd>
+        </dl>
+        <p class="datos-extra"><span>1,85 m</span> · <span>74 kg</span></p>
+        <ul class="atributos">
+          <li>Pase</li>
+          <li>Llegada</li>
+        </ul>
+        <a href="#" class="btn-pegar btn-pegar--pequeno">¡Pegar Figurita!</a>
+      </article>
+
+      <!-- 15 -->
+      <article class="figurita figurita--nueva" id="fig-15">
+        <span class="figurita-num">15</span>
+        <span class="etiqueta etiqueta--nueva">[NUEVA]</span>
+        <div class="figurita-foto" style="--color-a:#C9A93B; --color-b:#75AADB;">GS</div>
+        <h3 class="figurita-nombre">Giuliano Simeone</h3>
+        <dl class="ficha-tecnica">
+          <dt>Nombre</dt><dd>Giuliano Simeone</dd>
+          <dt>Equipo</dt><dd>Atlético de Madrid (ESP)</dd>
+          <dt>Posición</dt><dd>Extremo</dd>
+        </dl>
+        <p class="datos-extra"><span>1,73 m</span> · <span>75 kg</span></p>
+        <ul class="atributos">
+          <li>Velocidad</li>
+          <li>Desborde</li>
+        </ul>
+        <a href="#" class="btn-pegar btn-pegar--pequeno">¡Pegar Figurita!</a>
+      </article>
+
+      <!-- 16 -->
+      <article class="figurita figurita--historica" id="fig-16">
+        <span class="figurita-num">16</span>
+        <span class="etiqueta etiqueta--historica">Histórica</span>
+        <div class="figurita-foto" style="--color-a:#5B4636; --color-b:#75AADB;">LP</div>
+        <h3 class="figurita-nombre">Leandro Paredes</h3>
+        <dl class="ficha-tecnica">
+          <dt>Nombre</dt><dd>Leandro Paredes</dd>
+          <dt>Equipo</dt><dd>Club Atlético Boca Juniors (ARG)</dd>
+          <dt>Posición</dt><dd>Mediocampista</dd>
+        </dl>
+        <p class="datos-extra"><span>1,82 m</span> · <span>75 kg</span></p>
+        <ul class="atributos">
+          <li>Pase largo</li>
+          <li>Pausa</li>
+        </ul>
+        <a href="#" class="btn-pegar btn-pegar--pequeno">¡Pegar Figurita!</a>
+      </article>
+
+      <!-- 17 -->
+      <article class="figurita figurita--titular" id="fig-17">
+        <span class="figurita-num">17</span>
+        <span class="etiqueta etiqueta--titular">Titular</span>
+        <div class="figurita-foto" style="--color-a:#1A2B4C; --color-b:#75AADB;">EP</div>
+        <h3 class="figurita-nombre">Exequiel Palacios</h3>
+        <dl class="ficha-tecnica">
+          <dt>Nombre</dt><dd>Exequiel Palacios</dd>
+          <dt>Equipo</dt><dd>Bayer 04 Leverkusen (GER)</dd>
+          <dt>Posición</dt><dd>Mediocampista</dd>
+        </dl>
+        <p class="datos-extra"><span>1,78 m</span> · <span>69 kg</span></p>
+        <ul class="atributos">
+          <li>Recuperación</li>
+          <li>Pase</li>
+        </ul>
+        <a href="#" class="btn-pegar btn-pegar--pequeno">¡Pegar Figurita!</a>
+      </article>
+
+      <!-- 18 -->
+      <article class="figurita figurita--historica" id="fig-18">
+        <span class="figurita-num">18</span>
+        <span class="etiqueta etiqueta--historica">Histórica</span>
+        <div class="figurita-foto" style="--color-a:#5B4636; --color-b:#75AADB;">NG</div>
+        <h3 class="figurita-nombre">Nico González</h3>
+        <dl class="ficha-tecnica">
+          <dt>Nombre</dt><dd>Nico González</dd>
+          <dt>Equipo</dt><dd>Atlético de Madrid (ESP)</dd>
+          <dt>Posición</dt><dd>Extremo</dd>
+        </dl>
+        <p class="datos-extra"><span>1,80 m</span> · <span>77 kg</span></p>
+        <ul class="atributos">
+          <li>Desborde</li>
+          <li>Gol</li>
+        </ul>
+        <a href="#" class="btn-pegar btn-pegar--pequeno">¡Pegar Figurita!</a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===================== CANJES ===================== -->
+  <section id="canjes" class="seccion canjes">
+    <div class="seccion-titulo">
+      <h2>Canjes pendientes</h2>
+      <span class="contador">3 repetidas</span>
+    </div>
+
+    <ul class="lista-canjes">
+      <li><span class="etiqueta-repe">Repetida</span> Giuliano Simeone — cambio por cualquier arquero suplente</li>
+      <li><span class="etiqueta-repe">Repetida</span> Leonardo Balerdi — busco figuritas <span class="etiqueta etiqueta--legendaria etiqueta--inline">[LEGENDARIA]</span></li>
+      <li><span class="etiqueta-repe">Repetida</span> Nico Paz — cambio por Franco Mastantuono</li>
+    </ul>
+  </section>
+
+  <footer class="pie">
+    <p>Trabajo Práctico N° 6 — Laboratorio de Programación · Álbum hecho con HTML &amp; CSS</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
